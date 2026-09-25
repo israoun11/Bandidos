@@ -1,9 +1,9 @@
 {
-  "name": "enter-the-dish",
+  "name": "bandidos",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "NOIRÉ — Enter the Dish. A cinematic, scroll-driven 3D restaurant experience.",
+  "description": "bandidos — Enter the Dish. A cinematic, scroll-driven 3D restaurant experience.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -28,5 +28,8 @@
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",
     "vite": "^5.4.6"
+  },
+  "overrides": {
+    "postprocessing": "^6.35.4"
   }
 }
